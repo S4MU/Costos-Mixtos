@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1341B111AA659B600FC3C62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1341B101AA659B600FC3C62 /* AppDelegate.swift */; };
+		E1341B131AA659B600FC3C62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1341B121AA659B600FC3C62 /* ViewController.swift */; };
+		E1341B161AA659B600FC3C62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1341B141AA659B600FC3C62 /* Main.storyboard */; };
+		E1341B181AA659B600FC3C62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1341B171AA659B600FC3C62 /* Images.xcassets */; };
+		E1341B1B1AA659B600FC3C62 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1341B191AA659B600FC3C62 /* LaunchScreen.xib */; };
+		E1341B271AA659B600FC3C62 /* Costos_MixtosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1341B261AA659B600FC3C62 /* Costos_MixtosTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1341B211AA659B600FC3C62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1341B031AA659B600FC3C62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1341B0A1AA659B600FC3C62;
+			remoteInfo = "Costos Mixtos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1341B0B1AA659B600FC3C62 /* Costos Mixtos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Costos Mixtos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1341B0F1AA659B600FC3C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1341B101AA659B600FC3C62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1341B121AA659B600FC3C62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1341B151AA659B600FC3C62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1341B171AA659B600FC3C62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E1341B1A1AA659B600FC3C62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E1341B201AA659B600FC3C62 /* Costos MixtosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Costos MixtosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1341B251AA659B600FC3C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1341B261AA659B600FC3C62 /* Costos_MixtosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Costos_MixtosTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1341B081AA659B600FC3C62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1341B1D1AA659B600FC3C62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1341B021AA659B600FC3C62 = {
+			isa = PBXGroup;
+			children = (
+				E1341B0D1AA659B600FC3C62 /* Costos Mixtos */,
+				E1341B231AA659B600FC3C62 /* Costos MixtosTests */,
+				E1341B0C1AA659B600FC3C62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1341B0C1AA659B600FC3C62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1341B0B1AA659B600FC3C62 /* Costos Mixtos.app */,
+				E1341B201AA659B600FC3C62 /* Costos MixtosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1341B0D1AA659B600FC3C62 /* Costos Mixtos */ = {
+			isa = PBXGroup;
+			children = (
+				E1341B101AA659B600FC3C62 /* AppDelegate.swift */,
+				E1341B121AA659B600FC3C62 /* ViewController.swift */,
+				E1341B141AA659B600FC3C62 /* Main.storyboard */,
+				E1341B171AA659B600FC3C62 /* Images.xcassets */,
+				E1341B191AA659B600FC3C62 /* LaunchScreen.xib */,
+				E1341B0E1AA659B600FC3C62 /* Supporting Files */,
+			);
+			path = "Costos Mixtos";
+			sourceTree = "<group>";
+		};
+		E1341B0E1AA659B600FC3C62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1341B0F1AA659B600FC3C62 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1341B231AA659B600FC3C62 /* Costos MixtosTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1341B261AA659B600FC3C62 /* Costos_MixtosTests.swift */,
+				E1341B241AA659B600FC3C62 /* Supporting Files */,
+			);
+			path = "Costos MixtosTests";
+			sourceTree = "<group>";
+		};
+		E1341B241AA659B600FC3C62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1341B251AA659B600FC3C62 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1341B0A1AA659B600FC3C62 /* Costos Mixtos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1341B2A1AA659B600FC3C62 /* Build configuration list for PBXNativeTarget "Costos Mixtos" */;
+			buildPhases = (
+				E1341B071AA659B600FC3C62 /* Sources */,
+				E1341B081AA659B600FC3C62 /* Frameworks */,
+				E1341B091AA659B600FC3C62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Costos Mixtos";
+			productName = "Costos Mixtos";
+			productReference = E1341B0B1AA659B600FC3C62 /* Costos Mixtos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1341B1F1AA659B600FC3C62 /* Costos MixtosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1341B2D1AA659B600FC3C62 /* Build configuration list for PBXNativeTarget "Costos MixtosTests" */;
+			buildPhases = (
+				E1341B1C1AA659B600FC3C62 /* Sources */,
+				E1341B1D1AA659B600FC3C62 /* Frameworks */,
+				E1341B1E1AA659B600FC3C62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1341B221AA659B600FC3C62 /* PBXTargetDependency */,
+			);
+			name = "Costos MixtosTests";
+			productName = "Costos MixtosTests";
+			productReference = E1341B201AA659B600FC3C62 /* Costos MixtosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1341B031AA659B600FC3C62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = SamG;
+				TargetAttributes = {
+					E1341B0A1AA659B600FC3C62 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E1341B1F1AA659B600FC3C62 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E1341B0A1AA659B600FC3C62;
+					};
+				};
+			};
+			buildConfigurationList = E1341B061AA659B600FC3C62 /* Build configuration list for PBXProject "Costos Mixtos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1341B021AA659B600FC3C62;
+			productRefGroup = E1341B0C1AA659B600FC3C62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1341B0A1AA659B600FC3C62 /* Costos Mixtos */,
+				E1341B1F1AA659B600FC3C62 /* Costos MixtosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1341B091AA659B600FC3C62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1341B161AA659B600FC3C62 /* Main.storyboard in Resources */,
+				E1341B1B1AA659B600FC3C62 /* LaunchScreen.xib in Resources */,
+				E1341B181AA659B600FC3C62 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1341B1E1AA659B600FC3C62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1341B071AA659B600FC3C62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1341B131AA659B600FC3C62 /* ViewController.swift in Sources */,
+				E1341B111AA659B600FC3C62 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1341B1C1AA659B600FC3C62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1341B271AA659B600FC3C62 /* Costos_MixtosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1341B221AA659B600FC3C62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1341B0A1AA659B600FC3C62 /* Costos Mixtos */;
+			targetProxy = E1341B211AA659B600FC3C62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1341B141AA659B600FC3C62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1341B151AA659B600FC3C62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1341B191AA659B600FC3C62 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1341B1A1AA659B600FC3C62 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1341B281AA659B600FC3C62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1341B291AA659B600FC3C62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1341B2B1AA659B600FC3C62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Costos Mixtos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1341B2C1AA659B600FC3C62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Costos Mixtos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E1341B2E1AA659B600FC3C62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Costos MixtosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Costos Mixtos.app/Costos Mixtos";
+			};
+			name = Debug;
+		};
+		E1341B2F1AA659B600FC3C62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Costos MixtosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Costos Mixtos.app/Costos Mixtos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1341B061AA659B600FC3C62 /* Build configuration list for PBXProject "Costos Mixtos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1341B281AA659B600FC3C62 /* Debug */,
+				E1341B291AA659B600FC3C62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1341B2A1AA659B600FC3C62 /* Build configuration list for PBXNativeTarget "Costos Mixtos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1341B2B1AA659B600FC3C62 /* Debug */,
+				E1341B2C1AA659B600FC3C62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1341B2D1AA659B600FC3C62 /* Build configuration list for PBXNativeTarget "Costos MixtosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1341B2E1AA659B600FC3C62 /* Debug */,
+				E1341B2F1AA659B600FC3C62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1341B031AA659B600FC3C62 /* Project object */;
+}
